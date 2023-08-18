@@ -12,7 +12,7 @@ The k-Nearest Neighbors (KNN) algorithm is a straightforward classification or r
   
   In an $n$-dimensional space, the formula generalizes to:
   
-  $\ \text{Euclidean Distance} = \sqrt{\sum_{i=1}^{n} (x_{2i} - x_{1i})^2} \$
+$ \text{Euclidean Distance} = \sqrt{\sum_{i=1}^{n} (x_{2} - x_{1})^2} $
   
   Where $x_{1i}$ and $x_{2i}$ are the \(i\)-th components of the two points.
 
