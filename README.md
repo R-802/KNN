@@ -12,7 +12,7 @@ In an $n$-dimensional space, the formula generalizes to:
   
 $$\ \text{Euclidean Distance} = \sqrt{\sum_{i=1}^{n} (x_{2} - x_{1})^2} \$$
   
- Where $x_{1}$ and $x_{2}$ are the \(i\)-th components of the two points.
+ Where $x_{1}$ and $x_{2}$ are the $i-th$ components of the two points.
 
 - **Decision boundary:** KNN doesn't formulate a model; rather, it remembers the training data. Consequently, its decision boundary can be intricate and nonlinear, mirroring the distribution of the training data.
 - **Scalability:** KNN's effectiveness may dwindle with large datasets, as it necessitates computing distances for each prediction.
