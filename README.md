@@ -16,9 +16,6 @@ $$\ \text{Euclidean Distance} = \sqrt{\sum_{i=1}^{n} (x_{2} - x_{1})^2} \$$
 
 - **Decision boundary:** KNN doesn't formulate a model; rather, it remembers the training data. Consequently, its decision boundary can be intricate and nonlinear, mirroring the distribution of the training data.
 - **Scalability:** KNN's effectiveness may dwindle with large datasets, as it necessitates computing distances for each prediction.
-Certainly! Here's the summary of the KNN implementation suitable for a GitHub `README.md` file written in Markdown:
-
----
 
 ## KNN Implementation with 3D Visualization
 
@@ -48,8 +45,4 @@ This repository contains a Python implementation showcasing the k-Nearest Neighb
 
 - **Scalability:** For larger datasets or more complex scenarios, consider utilizing optimized libraries like scikit-learn.
 
-### Conclusion
-
-This implementation provides a foundational understanding of implementing the KNN algorithm for 3-dimensional data and visually presenting its outcomes in a 3D space. While this version is not highly optimized, it serves as a starting point for exploring KNN algorithms and visualization techniques.
-
----
+Overall this program is a crude and simple demonstration of the k-nearest neighbor classification algorithm. While this version is not highly optimized, it serves as a starting point for exploring KNN algorithms and visualization techniques.
