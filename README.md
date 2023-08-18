@@ -8,11 +8,11 @@ The k-Nearest Neighbors (KNN) algorithm is a straightforward classification or r
 - **Hyperparameter \(k\):** The algorithm's behavior hinges on the choice of the hyperparameter \(k\), which specifies the number of neighbors to consider when making predictions.
 - **Distance metric:** KNN employs a distance metric, often the Euclidean distance, to quantify the similarity between data points. The Euclidean distance between two points \((x_1, y_1)\) and \((x_2, y_2)\) is given by:
   
- $\ \text{Euclidean Distance} = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \$
+ $$\ \text{Euclidean Distance} = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \$$
   
   In an $n$-dimensional space, the formula generalizes to:
   
-$ \text{Euclidean Distance} = \sqrt{\sum_{i=1}^{n} (x_{2} - x_{1})^2} $
+$$\ \text{Euclidean Distance} = \sqrt{\sum_{i=1}^{n} (x_{2} - x_{1})^2} \$$
   
   Where $x_{1i}$ and $x_{2i}$ are the \(i\)-th components of the two points.
 
