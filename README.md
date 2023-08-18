@@ -21,7 +21,7 @@ $$\ \text{Euclidean Distance} = \sqrt{\sum_{i=1}^{n} (x_{2} - x_{1})^2} \$$
 
 The provided Python implementation showcases the KNN algorithm and presents its outcomes visually using the matplotlib library. Here's a breakdown of the implementation:
 
-1. **Data Generation:** Random data points with two features (\(X\)) and binary labels (\(y\)) are generated for explanatory purposes.
+1. **Data Generation:** Random data points with two features $X$ and binary labels $y$ are generated for explanatory purposes.
 
 2. **KNN Class:** A `KNN` class is defined with `fit` and `predict` methods. The `fit` method stores the training data, and the `predict` method employs the KNN classifier to make predictions on new data.
 
