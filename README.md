@@ -1,17 +1,18 @@
 **KNN**
+
 The k-Nearest Neighbors (KNN) algorithm is a straightforward classification or regression technique used in supervised learning. It operates on the principle that similar data points tend to share similar labels. Given a new data point, KNN identifies the k closest training data points (neighbors) and assigns the majority class label (for classification) or the average value (for regression) of these neighbors to the new point.
 
 **Key points about KNN:**
 - **Hyperparameter k:** The algorithm's behavior hinges on the choice of the hyperparameter k, which specifies the number of neighbors to consider when making predictions.
-- **Distance metric:** KNN employs a distance metric, often the Euclidean distance, to quantify the similarity between data points. The Euclidean distance between two points \((x_1, y_1)\) and \((x_2, y_2)\) is given by:
-  
-  \[ \text{Euclidean Distance} = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \]
-  
+- **Distance metric:** KNN employs a distance metric, often the Euclidean distance (\(d_{\text{euclidean}}\)), to quantify the similarity between data points. The Euclidean distance between two points \((\mathbf{x}_1, \mathbf{y}_1)\) and \((\mathbf{x}_2, \mathbf{y}_2)\) in a 2-dimensional space is given by:
+
+  \[ d_{\text{euclidean}} = \sqrt{(\mathbf{x}_2 - \mathbf{x}_1)^2 + (\mathbf{y}_2 - \mathbf{y}_1)^2} \]
+
   In an \(n\)-dimensional space, the formula generalizes to:
-  
-  \[ \text{Euclidean Distance} = \sqrt{\sum_{i=1}^{n} (x_{2i} - x_{1i})^2} \]
-  
-  Where \(x_{1i}\) and \(x_{2i}\) are the \(i\)-th components of the two points.
+
+  \[ d_{\text{euclidean}} = \sqrt{\sum_{i=1}^{n} (\mathbf{x}_{2i} - \mathbf{x}_{1i})^2} \]
+
+  Where \(\mathbf{x}_{1i}\) and \(\mathbf{x}_{2i}\) are the \(i\)-th components of the two points.
 
 - **Decision boundary:** KNN doesn't formulate a model; rather, it remembers the training data. Consequently, its decision boundary can be intricate and nonlinear, mirroring the distribution of the training data.
 - **Scalability:** KNN's effectiveness may dwindle with large datasets, as it necessitates computing distances for each prediction.
