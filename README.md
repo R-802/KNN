@@ -1,4 +1,4 @@
-*KNN*
+# KNN
 
 The k-Nearest Neighbors (KNN) algorithm is a straightforward classification or regression technique used in supervised learning. It operates on the principle that similar data points tend to share similar labels. Given a new data point, KNN identifies the \(k\) closest training data points (neighbors) and assigns the majority class label (for classification) or the average value (for regression) of these neighbors to the new point.
 
